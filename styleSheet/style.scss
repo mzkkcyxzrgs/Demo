@@ -1,0 +1,50 @@
+// .Item{
+//     display: flex;
+//     width: 33.33%;
+//     float: left;
+//   }
+.ant-form-item-children{
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;
+    width: 33.33%;
+    float: left;
+    justify-content:center;
+    span{
+        white-space: nowrap;
+        display: inline-block;
+        width: 70px;
+        text-align: right;
+        margin-right: 20px;
+    }
+}
+.box{
+    display: flex;
+    width: 33.33%;
+    float: left;
+    justify-content: center;
+    
+}
+.tableBox{
+    margin-left: 8%;
+    float: left;
+    width: 85%;
+    .Table{
+        box-sizing: border-box;
+        width: 100%;
+        tr{
+            box-sizing: border-box;
+            border: none;
+            width: 100%;
+            
+            td{
+                box-sizing: border-box;
+                border-top: none;
+                border-left: none;
+                display: inline-block;
+                width: 20%;
+                text-align: center;
+            }
+        }
+    }
+}
